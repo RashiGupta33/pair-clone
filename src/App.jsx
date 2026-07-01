@@ -2,7 +2,9 @@ import Hero from "./components/Hero"
 import StatsSection from "./components/StatsSection"
 import Companies from "./components/Companies"
 import Features from "./components/Features"
-// import TelegramSection from "./components/TelegramSection"
+import TelegramSection from "./components/TelegramSection"
+import Subscribe from "./components/Subscribe"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <StatsSection />
       <Companies />
       <Features />
-      {/* <TelegramSection /> */}
+      <TelegramSection />
+      <Subscribe />
+      <Footer />
     </>
   )
 }
