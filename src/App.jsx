@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import StatsSection from "./components/StatsSection"
 import Companies from "./components/Companies"
 import Features from "./components/Features"
+// import TelegramSection from "./components/TelegramSection"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <StatsSection />
       <Companies />
       <Features />
+      {/* <TelegramSection /> */}
     </>
   )
 }
