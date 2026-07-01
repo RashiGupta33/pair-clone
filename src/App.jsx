@@ -1,6 +1,7 @@
 import Hero from "./components/Hero"
 import StatsSection from "./components/StatsSection"
 import Companies from "./components/Companies"
+import Features from "./components/Features"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <StatsSection />
       <Companies />
+      <Features />
     </>
   )
 }
