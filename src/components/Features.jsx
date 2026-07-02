@@ -5,7 +5,10 @@ import Scalability from "../assets/scalibility.png";
 
 export default function Features() {
     return (
-        <section className="bg-[#09060F] py-32">
+        <section className="bg-[#09060F] py-32"
+            style={{
+                background: "linear-gradient(#0c051e 22%,#05020c 75% 84.1881%,#7144ec 91%,#fff 100%)"
+            }}>
             <div className="mx-auto max-w-7xl px-6">
 
                 {/* Heading */}
@@ -15,7 +18,7 @@ export default function Features() {
                         Meet Pair
                     </span>
 
-                    <h2 className="mt-8 text-5xl font-medium text-white">
+                    <h2 className="mt-14 text-6xl font-medium text-white">
                         The Future of SWE Hiring
                     </h2>
                 </div>

@@ -76,10 +76,10 @@ export default function StatsSection() {
     };
 
     return (
-        <section className="relative overflow-hidden bg-white py-20 pl-10"
+        <section className="relative overflow-hidden bg-white py-20 pl-10 pb-40"
             style={{
                 background:
-                    "linear-gradient(180deg, #FFFFFF 72.489%, #5F2CF0 100%)",
+                    "linear-gradient(#fff 0% 73%,#5326d0 100%)",
             }}>
             <div className="w-[1470px]">
                 {/* Heading */}
